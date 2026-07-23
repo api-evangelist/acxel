@@ -1,7 +1,25 @@
 aid: acxel
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/acxel.png
 name: acxel
-description: acxel is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: ACXEL is a digital cell biology company building advanced microfluidics platforms
+  and productivity tools for life sciences research and drug development. Its self-developed
+  AP-LOC (Active Pixel Lab-on-Chip) technology enables high-throughput, parallel, and precise
+  microdroplet manipulation, alongside AM-EWOD and AM-DMF digital microfluidic platforms
+  supporting cell sorting, cell therapy, antibody therapy, synthetic biology, and chemical
+  synthesis with full-process chip integration and real-time feedback monitoring. Surfaced as
+  a portfolio company of Qiming Venture Partners. ACXEL is a hardware and platform provider and
+  publishes no public developer/API surface as of this enrichment pass.
 url: https://raw.githubusercontent.com/api-evangelist/acxel/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,6 +32,12 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Life Sciences
+- Biotechnology
+- Microfluidics
+- Digital Biology
+- Lab-on-Chip
+- Drug Development
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +45,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/acxel-domain-security.yml
 - type: Website
   url: https://acxel.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
